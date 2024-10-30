@@ -46,7 +46,7 @@ El `Dockerfile` está configurado para:
 
 ### Iniciar app
 
-1. **Construir la Imagen Docker**: docker build -t mercedes-benz-clase-a .
-2. **Ejecutar el Contenedor**: docker run -d -p 7680:7680 mercedes-benz-clase-a
+1. **Construir la Imagen Docker**: `docker build -t mercedes-benz-clase-a .`
+2. **Ejecutar el Contenedor**: `docker run -d -p 7680:7680 mercedes-benz-clase-a`
 3. **Abrir la app en el siguiente enlace**: http://localhost:7680
 4. **Hacer una predicción**: Introduce los datos de tu Mercedes-Benz Clase A y... ¡Disfruta de tu predicción!
